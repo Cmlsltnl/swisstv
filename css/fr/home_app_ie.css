@@ -1,0 +1,19 @@
+.input_response{
+    position:relative;
+    height:40px;
+    width:270px;
+    margin:25px 0 0 105px;
+
+}
+
+input[type="text"]{
+    position:relative;
+    z-index: 20;
+    border: none;
+    font-size: 18px;
+    height:40px;
+    width:270px;
+    margin:0px 0 0 115px;
+    background-color:transparent;
+    margin-top:10px;
+}

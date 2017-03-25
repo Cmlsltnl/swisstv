@@ -1,0 +1,372 @@
+#container{
+    width:760px;
+    height:1303px;
+    background-image: url('../../img/fr/background_classement.jpg');
+    margin:0 auto 0 auto;
+    overflow:hidden;
+}
+
+#content{
+    height:1233px;
+    width:100%;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+#champions{
+    width:718px;
+    height:239px;
+    background-image: url('../../img/fr/classement_champ.png');
+    margin:10px auto 0 auto;
+    overflow:hidden;
+}
+
+#champions_title{
+    height:50px;
+    width:100%;
+    margin-top:5px;
+    padding-top:10px;
+    font-size:28px;
+    color:#ffffff;
+    font-weight:bold;
+    text-align: center;
+}
+
+#champions_content{
+    height:180px;
+    width:100%;
+}
+
+#champion_6{
+    float:left;
+    width:112px;
+   /* height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 5px;
+}
+
+#champion_7{
+    float:left;
+    width:112px;
+    /*height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 6px;
+}
+
+#champion_8{
+    float:left;
+    width:112px;
+    /*height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 7px;
+}
+
+#champion_9{
+    float:left;
+    width:112px;
+    /*height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 7px;
+}
+
+#champion_10{
+    float:left;
+    width:112px;
+   /* height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 8px;
+}
+
+#champion_11{
+    float:left;
+    width:112px;
+    /*height:112px;
+    background-image: url('../../img/fr/silouhette.png');*/
+    margin:5px 0 0 7px;
+}
+
+.champions_month{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.champions_name{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 10px;
+    
+}
+
+#classements{
+    width:719px;
+    height:709px;
+    background-image: url('../../img/fr/classement.png');
+    margin:30px auto 0 auto;
+    overflow:hidden;
+}
+
+#bloc_left{
+    float:left;
+    width:50%;
+}
+
+#header_bloc_left{
+    height:50px;
+    width:300px;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:25px;
+    margin-right: auto;
+}
+
+#header_bloc_left a{
+    float:left;
+    margin-top:8px;
+}
+
+#top_week{
+    float:left;
+    width:265px;
+    text-align:center;
+    margin-top:15px;
+}
+
+#content_bloc_left{
+    height:570px;
+    width:100%;
+    margin-top:0px;
+}
+
+#footer_bloc_left{
+    height:40px;
+    width:100%;
+    margin-top:0px;
+}
+
+.item_left{
+    height:55px;
+    width:338px;
+    background-color: #7089a8;
+    margin:0 0 1px 5px;
+    overflow:hidden;
+}
+
+.item_left_pos{
+    float:left;
+    width:40px;
+    text-align:center;
+    padding-top:17px;
+}
+
+.item_left_img{
+    float:left;
+    margin-top:3px;
+}
+
+.item_left_name{
+    float:left;
+    width:150px;
+    margin-left:10px;
+    padding-top:18px;
+    color:#1e283a;
+    font-size:12px;
+}
+
+.item_left_pts{
+    float:left;
+    width:80px;
+    font-size:12px;
+    text-align: center;
+    padding-top:18px;
+}
+
+.item_left_prog{
+    float:left;
+    width:0px;
+    font-size:12px;
+    padding-top:18px;
+    text-align: center;
+}
+
+#bloc_right{
+    float:right;
+    width:50%;
+}
+
+#header_bloc_right{
+    height:50px;
+    width:300px;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:35px;
+    margin-right: auto;
+}
+
+#header_bloc_right a{
+    float:left;
+    margin-top:8px;
+}
+
+.button_right{
+    float:left;
+    width:14px;
+    height:23px;
+    background-image: url('../../img/fr/button-right.png');
+    margin-top:8px;
+}
+
+.button_left{
+    float:left;
+    width:14px;
+    height:23px;
+    background-image: url('../../img/fr/button-left.png');
+    margin-top:8px;
+}
+
+#top_month{
+    float:left;
+    width:265px;
+    text-align:center;
+    margin-top:15px;
+}
+
+#content_bloc_right{
+    height:570px;
+    width:100%;
+    margin-top:0px;
+}
+
+#footer_bloc_right{
+    height:40px;
+    width:100%;
+    margin-top:0px;
+}
+
+
+.item_right{
+    height:55px;
+    width:338px;
+    background-color: #7089a8;
+    margin:0 0 1px 14px;
+    overflow:hidden;
+}
+
+.item_right_pos{
+    float:left;
+    width:40px;
+    text-align:center;
+    padding-top:17px;
+}
+
+.item_right_img{
+    float:left;
+    margin-top:3px;
+}
+
+.item_right_name{
+    float:left;
+    width:150px;
+    margin-left:10px;
+    padding-top:18px;
+    color:#1e283a;
+    font-size:12px;
+}
+
+.item_right_pts{
+    float:left;
+    width:80px;
+    font-size:12px;
+    text-align: center;
+    padding-top:18px;
+}
+
+.item_right_prog{
+    float:left;
+    width:0px;
+    font-size:12px;
+    padding-top:18px;
+    text-align: center;
+}
+
+#ajax_pagination{
+    font-size: 10px;
+    margin:0 auto 0 auto;
+    width:50px;
+}
+
+#ajax_pagination a{
+    color:#ffffff;
+}
+
+#access_frame{
+    position:relative;
+    z-index: 20;
+    width:100%;
+    overflow:hidden;
+}
+
+#defi{
+    float:right;
+    width:272px;
+    height:182px;
+    background-image: url('../../img/fr/defi_cadeaux.png');
+    margin-top:5px;
+}
+
+#defi h4{
+    font-size: 26px;
+    font-weight: bold;
+    color:#ffffff;
+    width:200px;
+    margin:70px 0 0 45px;
+}
+
+#defi_text{
+    font-size: 10px;
+    color:#ffffff;
+    width:200px;
+    margin:10px 0 0 45px;
+}
+
+#defi h4 a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#defi h4 a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+#classement_access{
+    text-align: center;
+}
+
+#classement_access a{
+    font-size:12px;
+    color:#fff;
+}
+
+#arrow_top{
+    width:14px;
+    height:10px;
+    background-image: url('../../img/fr/arrow_top.png');
+}
+
+#arrow_equal{
+    width:10px;
+    height:14px;
+    background-image: url('../../img/fr/arrow_equal.png');
+}
+
+#arrow_down{
+    width:14px;
+    height:10px;
+    background-image: url('../../img/fr/arrow_down.png');
+}
+
+em{
+    font-size: 10px;
+    color:#ee2e24;
+}

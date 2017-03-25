@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width:100%;
+    overflow:hidden;
+
+}
+
+#container_login{
+    width:100%;
+    overflow:hidden;
+    background-color: #ffffff;
+    height: 800px;
+}
+
+#login{
+    width:300px;
+    height:250px;
+    margin:200px auto 0 auto;
+    color:#323232;
+    background-color: #ffffff;
+    border: 3px solid #f2f2f2;
+    /*background-color: #b7b7b7;*/
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px #979797;
+    -moz-box-shadow: 0 0 6px #979797;
+    -webkit-box-shadow: 0 0 6px #979797;
+}
+
+#login_header{
+    color:#ffffff;
+    font-size:18px;
+    font-weight: bold;
+    width:100%;
+    padding: 10px 0 10px 0;
+    background-color: #ee2e24;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#login input[type="text"]{
+    width:180px;
+    margin:0 0 0 55px;
+}
+
+#login input[type="password"]{
+    width:180px;
+    margin:0 0 0 55px;
+}
+
+#login input[type="submit"]{
+    width:190px;
+    margin:10px 0 0 55px;
+}
+
+#login label{
+    width:180px;
+    margin:0 0 0 55px;
+}
+
+
+
+#top{
+    position:relative;
+    background-color: #000000;
+    width:100%;
+    height: 44px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#swiss_tv_logo{
+    position:relative;
+    background-image: url('../../img/fr/logo_swisstv.png');
+    width:234px;
+    height: 44px;
+    margin:0px 0 0 20px;
+}
+
+#menu{
+    float:left;
+    width:15%;
+    height: 900px;
+    background:#ee2e24;
+    padding-top: 30px;
+}
+
+#menu a{
+
+    font-size:18px;
+    font-weight:bold;
+    color:#ffffff;
+    margin:0px 0 0 10px;
+    text-decoration: none;
+
+
+}
+
+.item_menu{
+    position:relative;
+    width:100%;
+    height:30px;
+    padding-top:5px;
+}
+
+.item_menu:hover{
+
+    background-color: #000000;
+
+}
+
+#content{
+    float:left;
+    width:1050px;
+    color:#5e5e5e;
+    font-weight: bold;
+    margin-top:30px;
+
+}
+
+#bloc_left{
+    float:left;
+    width:400px;
+    margin-left:100px;
+}
+
+#bloc_right{
+    float:left;
+    width:400px;
+}
+
+#bloc_right a{
+    color:#5e5e5e;
+}
+
+input[type="text"]{
+    width:300px;
+}
+
+#submit_form{
+    clear:both;
+    width:100px;
+    margin:0 auto 0 auto;
+}
+
+
+.quiz_item{
+    float:left;
+    width:300px;
+    height:100px;
+    overflow:hidden;
+    margin-left:30px;
+    margin-top:15px;
+    color:#323232;
+    background-color: #ffffff;
+    border: 3px solid #f2f2f2;
+    /*background-color: #b7b7b7;*/
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px #979797;
+    -moz-box-shadow: 0 0 6px #979797;
+    -webkit-box-shadow: 0 0 6px #979797;
+}
+
+
+.header_item{
+    background:#ee2e24;
+    color:#ffffff;
+    overflow:hidden;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.quiz_title{
+    float:left;
+    margin-left:10px;
+}
+.quiz_date{
+    float:right;
+    margin-right:10px;
+}
+
+.content_item{
+    height:50px;
+    font-size:12px;
+    color:#4c4c4c;
+}
+
+.question_item{
+    margin: 5px 0 0 5px;
+}
+
+.reponse_item{
+    margin: 5px 0 0 5px;
+}
+
+.quiz_action{
+    width:290px;
+    margin:0 auto 0 auto;
+    overflow:hidden;
+}
+
+.quiz_action a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size:11px;
+}
+
+
+.media_preview{
+    float:left;
+    width:60px;
+    height:20px;
+    background-color: #000000;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color:#ffffff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.media_preview:hover{
+    background:#ee2e24;
+
+}
+
+.media_modify{
+    float:left;
+    width:60px;
+    height:20px;
+    background-color: #000000;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color:#ffffff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.media_modify:hover{
+    background:#ee2e24;
+
+}
+
+.media_delete{
+    float:left;
+    width:60px;
+    height:20px;
+    background-color: #000000;
+    margin: 0 0 0 10px;
+    text-align: center;
+    color:#ffffff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.media_delete:hover{
+    background:#ee2e24;
+
+}
+
+#infos_admin{
+    overflow: hidden;
+    width:1000px;
+    margin:0 0 20px 30px;
+}
+
+#infos_title{
+    float:left;
+}
+
+#infos_action{
+    float:right;
+    overflow:hidden;
+}
+
+#infos_action a{
+    color:#323232;
+}
+
+#user_table{
+    overflow:hidden;
+    margin-left:30px;
+    color:#323232;
+    background-color: #ffffff;
+    border: 3px solid #f2f2f2;
+    /*background-color: #b7b7b7;*/
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px #979797;
+    -moz-box-shadow: 0 0 6px #979797;
+    -webkit-box-shadow: 0 0 6px #979797;
+}
+
+#user_table table{
+    width:100%;
+    text-align: center;
+    border-collapse:collapse;
+}
+
+#user_table table th{
+    background:#ee2e24;
+    color:#ffffff;
+}
+
+.preview{
+    margin-left: 30px;
+}
+
+.item_preview{
+    margin-top: 10px;
+}
+
+.row_title{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    background:#ee2e24;
+    color:#ffffff;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.col_title{
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:165px;
+    text-align:center;
+
+}
+
+.col_annonce{
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:465px;
+    text-align:center;
+
+}
+
+
+.row{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row_color{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    background:#ececec;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col{
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:165px;
+    text-align:center;
+}
+
+.col a{
+    color:#323232;
+}
+
+.col select{
+    width:100px;
+}
+
+#date_quiz{
+    width:50px;
+}
+
+.item_action{
+    float:left;
+    margin-left:3px;
+}
+
+#message_info{
+    text-align:center;
+    width:200px;
+    padding:10px 0 10px 0;
+    background-color: #d2ebfa;
+    color:#626262;
+    margin-bottom: 10px;
+    border:1px;
+    border-color:#36a0a5;
+    border-style:solid;
+    border-left: none;
+}
+
+#form_add_admin{
+   margin: 0 0 30px 50px;
+}
+
+.col_email{
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:265px;
+    text-align:center;
+}

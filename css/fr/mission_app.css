@@ -1,0 +1,146 @@
+#container{
+    width:760px;
+    height:923px;
+    background-image: url('../../img/fr/background_mission.jpg');
+    margin:0 auto 0 auto;
+    overflow:hidden;
+}
+
+#content{
+    height:853px;
+    width:100%;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+#content_1{
+    overflow: hidden;
+    margin-top:0px;
+    height:70px;
+    width:100%;
+    overflow:hidden;
+}
+
+#content_2{
+    width:718px;
+    height:139px;
+    margin:0px auto 0 auto;
+    background-image: url('../../img/fr/content_mission.png');
+}
+
+#content_3{
+    overflow: hidden;
+    height:70px;
+    width:100%;
+    margin:0px 0 0 0px;
+}
+
+#content_4{
+    width:718px;
+    height:139px;
+    margin:0px auto 0 auto;
+    background-image: url('../../img/fr/content_mission.png');
+}
+
+#content_5{
+    overflow: hidden;
+    height:70px;
+    width:100%;
+    margin:0px 0 0 0px;
+}
+
+#content_6{
+    width:718px;
+    height:139px;
+    margin:0px auto 0 auto;
+    background-image: url('../../img/fr/content_mission.png');
+}
+
+#box{
+    position:relative;
+    z-index: 20;
+    float:left;
+    width:488px;
+    height:154px;
+    background-image: url('../../img/fr/box_cadeaux.png');
+    margin-top:10px;
+}
+
+#defi{
+    float:right;
+    width:272px;
+    height:182px;
+    background-image: url('../../img/fr/defi_cadeaux.png');
+    margin-top:-15px;
+}
+
+#defi h4{
+    font-size: 26px;
+    font-weight: bold;
+    color:#ffffff;
+    width:200px;
+    margin:70px 0 0 45px;
+}
+
+#defi_text{
+    font-size: 10px;
+    color:#ffffff;
+    width:200px;
+    margin:10px 0 0 45px;
+}
+
+#defi h4 a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#defi h4 a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+.title{
+    font-size:22px;
+    padding:10px 0 0 10px;
+}
+
+.text{
+    font-size:12px;
+    padding:5px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.citation{
+    float:right;
+    font-style:italic;
+    width: 550px;
+    text-align: right;
+    color:#8fb3d9;
+    font-size:22px;
+    margin-right:25px;
+    font-weight:normal;
+    margin-top: 15px;
+}
+
+.traduction{
+    float:right;
+    width: 550px;
+    text-align: right;
+    color:#8fb3d9;
+    font-size:12px;
+    margin-right:25px;
+    font-weight:normal;
+
+
+}
+
+.traduction b{
+
+    color:#d87be6;
+    font-size:12px;
+    font-weight:bold;
+
+
+}

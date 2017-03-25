@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width:520px;
+    margin:0 auto 0 auto;
+    overflow:hidden;
+}
+
+#landing_image{
+    background-image: url('../../img/fr/landing_image.jpg');
+    height:603px;
+    width:525px;
+}
+
+#access_image{
+    background-image: url('../../img/fr/access_image.jpg');
+    height:603px;
+    width:525px;
+}
+
+#like_button{
+    float:right;
+    margin:40px 35px 0 0px;
+    height:20px;
+    overflow:hidden;
+}
+
+#link_access{
+    float:right;
+    margin:0px 20px 0 0px;
+}
+
+#play{
+    width:170px;
+    height:100px;
+    cursor:pointer;
+    
+}
+
+#lang_landing{
+    float:left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#lang_landing a{
+    color:#fff;
+    margin-left: 5px;
+}
+
+#lang_access{
+    float:left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#lang_access a{
+    color:#fff;
+    margin-left: 5px;
+}
+
+

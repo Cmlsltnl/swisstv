@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+
+#container{
+    width:760px;
+    height:895px;
+    background-image: url('../../img/fr/background.jpg');
+    margin:0 auto 0 auto;
+    /*overflow:hidden;*/
+}
+
+
+
+/* HEADER */
+#header{
+    position:relative;
+    z-index: 20;
+    background:#ee2e24;
+    width:100%;
+    height:35px;
+}
+
+/*MENU*/
+#menu{
+    position:relative;
+    z-index: 150;
+    width:100%;
+    height:55px;
+    background-image: url('../../img/fr/menu.png');
+    overflow:hidden;
+}
+
+#menu a{
+    color:#2b436e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:14px;
+}
+
+
+
+#home{
+
+    width:21px;
+    height:19px;
+    background-image: url('../../img/fr/home.png');
+    border:none;
+}
+
+#menu_home{
+float:left;
+height:39px;
+margin:3px 0 0 5px;
+width:37px;
+}
+
+#menu_home a{
+float:left;
+margin:10px 7px 0 7px;
+z-index: 10;
+}
+
+#menu_infos{
+float:left;
+height:39px;
+margin:3px 0 0 0px;
+width:140px;
+}
+
+#menu_infos a{
+float:left;
+margin:12px 17px 0 17px;
+
+}
+
+#menu_cadeaux{
+float:left;
+height:39px;
+margin:3px 0 0 0px;
+width:100px;
+}
+
+#menu_cadeaux a{
+float:left;
+margin:12px 17px 0 17px;
+
+}
+
+#menu_resultats{
+float:left;
+height:39px;
+margin:3px 0 0 0px;
+width:118px;
+}
+
+#menu_resultats a{
+float:left;
+margin:12px 17px 0 17px;
+
+}
+
+#menu_classement{
+float:left;
+height:39px;
+margin:3px 0 0 0px;
+width:102px;
+}
+
+#menu_classement a{
+float:left;
+margin:12px 17px 0 17px;
+
+}
+
+#menu_filleuls{
+float:left;
+width:122px;
+height:39px;
+margin:3px 0 0 0px;
+}
+
+#menu_filleuls a{
+float:left;
+margin:12px 17px 0 17px;
+
+}
+
+#menu_mon_compte{
+float:left;
+height:39px;
+margin:3px 0 0 0px;
+width:135px;
+}
+
+#menu_mon_compte a{
+float:left;
+margin:12px 0px 0 17px;
+width:110px;
+}
+
+.separator{
+    float:right;
+    width:2px;
+    height:39px;
+    background-image: url('../../img/fr/separator.jpg');
+}
+
+.rollover{
+
+    width:100%;
+    height:39px;
+    background-image: url('../../img/fr/rollover.jpg');
+    background-repeat:repeat-x;
+    z-index: 1;
+}
+/* CONTENT */
+#content{
+    position:relative;
+    z-index: 20;
+    width:100%;
+    height:825px;
+    overflow:hidden;
+}
+
+/* FOOTER */
+#footer{
+    background:#ee2e24;
+    width:100%;
+    height:35px;
+    overflow:hidden;
+    color:#ffffff;
+    font-size:12px;
+    font-weight: bold;
+}
+
+#footer a{
+    color:#ffffff;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#logo{
+    float:left;
+    width:52px;
+    height:32px;
+    margin-top:3px;
+    background-image: url('../../img/fr/logo.png');
+}
+
+#result_footer{
+    float:left;
+    width:190px;
+    height:32px;
+    margin-top:10px;
+    margin-left:220px;
+}
+
+#contact{
+    float:left;
+    width:50px;
+    height:32px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:115px;
+}
+
+#reglement{
+
+    float:left;
+    width:70px;
+    height:32px;
+    text-align:center;
+    margin-top:10px;
+}
+
+#fr{
+    float:left;
+    width:16px;
+    height:32px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#de{
+    float:left;
+    width:16px;
+    height:32px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+

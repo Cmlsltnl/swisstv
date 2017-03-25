@@ -1,0 +1,187 @@
+#container{
+    width:760px;
+    height:923px;
+    background-image: url('../../img/fr/background_compte.jpg');
+    margin:0 auto 0 auto;
+    overflow:hidden;
+}
+
+#content{
+    height:853px;
+    width:100%;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+#mon_compte{
+    height: 221px;
+    width: 100%;
+    background-image: url('../../img/fr/compte_swisstv.png');
+    margin-top:40px;
+}
+
+#mon_compte_title{
+    width:100%;
+    height: 25px;
+    font-size:28px;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+    padding-top:15px;
+}
+
+#mon_compte_desc{
+    width:580px;
+    height: 40px;
+    font-size:12px;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+    margin: 40px auto 0 auto;
+
+}
+
+#mon_compte_form{
+    width:100%;
+    overflow:hidden;
+}
+
+#mon_compte_input{
+    float:left;
+    width: 282px;
+    height: 50px;
+    background-image: url('../../img/fr/input.png');
+    margin:0px 0 0 170px;
+}
+
+#mon_compte_input input{
+    width:270px;
+    height:50px;
+    border:none;
+    background:transparent;
+    margin:0px 0 0 5px;
+    font-size: 18px;
+}
+
+#mon_compte_valider{
+    float:left;
+    width: 129px;
+    height: 35px;
+    padding-top: 15px;
+    background-image: url('../../img/fr/validation.png');
+    text-align:center;
+    color:#20366b;
+    cursor:pointer;
+}
+
+#newsletter{
+    height: 208px;
+    width: 100%;
+    background-image: url('../../img/fr/newsletter.png');
+    margin-top:40px;
+}
+
+#newsletter_title{
+    width:100%;
+    height: 25px;
+    font-size:28px;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+    padding-top:15px;
+}
+
+#newsletter_desc{
+    width:580px;
+    height: 40px;
+    font-size:12px;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+    margin: 40px auto 0 auto;
+}
+
+#newsletter_form{
+    width:100%;
+}
+
+#newsletter_input{
+    float:left;
+    width: 282px;
+    height: 50px;
+    background-image: url('../../img/fr/input.png');
+    margin:0px 0 0 170px;
+}
+
+#newsletter_input input{
+    width:270px;
+    height:50px;
+    border:none;
+    background:transparent;
+    margin:0px 0 0 5px;
+    font-size: 18px;
+}
+
+#newsletter_valider{
+    float:left;
+    width: 129px;
+    height: 35px;
+    padding-top: 15px;
+    background-image: url('../../img/fr/validation.png');
+    margin:0px 0 0 0px;
+    text-align:center;
+    color:#20366b;
+    cursor:pointer;
+}
+
+#button_compte{
+
+}
+
+#button_newsletter{
+    
+}
+
+#box{
+    float:left;
+    width:488px;
+    height:154px;
+    background-image: url('../../img/fr/box_cadeaux.png');
+    margin-top:130px;
+}
+
+
+
+#defi{
+    float:left;
+    width:272px;
+    height:182px;
+    background-image: url('../../img/fr/defi_cadeaux.png');
+    margin-top:100px;
+}
+
+#defi h4{
+    font-size: 16px;
+    font-weight: bold;
+    color:#ffffff;
+    width:200px;
+    margin:70px 0 0 45px;
+}
+
+#defi_text{
+    font-size: 10px;
+    color:#ffffff;
+    width:200px;
+    margin:10px 0 0 45px;
+}
+
+#defi h4 a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#defi h4 a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
